@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ja"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ゴム 打ち抜き加工｜天然ゴム・合成ゴム・シリコンゴム｜有限会社精工パッキング</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Barlow+Condensed:wght@500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#ffffff;--paper2:#f2f4f1;--ink:#20241e;--plate:#eef0ec;--grey:#6d746c;--amber:#a5761f;--rule:#dcdfda;--dim:#a2a89e}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--paper);color:var(--ink);font-family:'Zen Kaku Gothic New','Noto Sans JP',sans-serif;font-size:16px;line-height:2.0;letter-spacing:.03em}
+img{max-width:100%;display:block}
+a{color:var(--ink);text-decoration:none}
+.en{font-family:'Barlow Condensed',sans-serif;letter-spacing:.14em}
+.rail{position:fixed;top:0;bottom:0;left:0;width:44px;border-right:1px solid var(--rule);z-index:40;background-color:var(--paper);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='44' height='56'%3E%3Ccircle cx='22' cy='28' r='6.5' fill='%23f2f4f1' stroke='%23cdd2c9' stroke-width='1.5'/%3E%3C/svg%3E");background-repeat:repeat-y}
+@media(max-width:860px){.rail{display:none}}
+main{margin-left:44px}
+@media(max-width:860px){main{margin-left:0}}
+.dimline{display:flex;align-items:center;gap:14px;color:var(--dim);font-size:12px;margin:0 0 26px}
+.dimline::before,.dimline::after{content:"";flex:1;height:1px;background:var(--dim)}
+.dimline b{font-family:'Barlow Condensed';font-weight:600;letter-spacing:.18em;font-size:13px;color:var(--grey)}
+header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);border-bottom:1px solid var(--rule)}
+.nav{display:flex;align-items:baseline;gap:28px;padding:18px 4vw 14px}
+.brand{font-weight:900;font-size:18px;letter-spacing:.1em}
+.brand a{color:var(--ink)}
+.brand .en{display:block;font-size:10px;color:var(--grey);font-weight:500;letter-spacing:.3em}
+.nav ul{display:flex;gap:22px;list-style:none;margin-left:auto;font-size:12.5px;font-weight:500;flex-wrap:wrap}
+.nav ul a{border-bottom:1px solid transparent;padding-bottom:2px}
+.nav ul a:hover,.nav ul a.on{border-color:var(--amber);color:var(--amber)}
+@media(max-width:960px){.nav ul{display:none}}
+.hero{position:relative;min-height:88vh;display:grid;grid-template-rows:1fr auto;overflow:hidden}
+.hero-photo{position:absolute;inset:0}
+.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:center 40%;filter:brightness(.66) saturate(.92)}
+.hero-photo::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(18,21,16,.18) 0%,rgba(18,21,16,.04) 45%,rgba(18,21,16,.85) 100%)}
+.hero-inner{position:relative;z-index:2;align-self:end;padding:0 5vw 7vh;color:#f2f1ea}
+.hero-kicker{font-size:13px;letter-spacing:.24em;color:#e3b85f;font-weight:700;margin-bottom:14px}
+.hero h1{font-size:clamp(34px,6vw,72px);font-weight:900;line-height:1.32;letter-spacing:.02em;margin-bottom:22px}
+.hero h1 .thin{font-weight:400}
+.hero-sub{max-width:640px;color:#d9d8cf;font-size:15px}
+.hero-en{position:absolute;top:14vh;right:4vw;z-index:2;writing-mode:vertical-rl;font-family:'Barlow Condensed';font-size:13px;letter-spacing:.5em;color:#e6e4da;opacity:.9}
+@media(max-width:860px){.hero-en{display:none}}
+.phero{position:relative;min-height:44vh;display:flex;align-items:flex-end;overflow:hidden}
+.phero-img{position:absolute;inset:0}
+.phero-img img{width:100%;height:100%;object-fit:cover;filter:brightness(.62)}
+.phero-img::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(18,21,16,.14),rgba(18,21,16,.78) 90%)}
+.phero-in{position:relative;z-index:2;padding:70px 5vw 42px;color:#f2f1ea}
+.phero-in .crumb{font-size:11.5px;letter-spacing:.2em;color:#cfcec3;margin-bottom:10px}
+.phero-in .crumb a{color:#e3b85f}
+.phero h1{font-size:clamp(28px,4.4vw,52px);font-weight:900;letter-spacing:.04em;line-height:1.4}
+.phero .sub{font-size:14px;color:#d9d8cf;margin-top:8px;letter-spacing:.08em}
+.specs{display:flex;flex-wrap:wrap;border-block:1px solid var(--rule);background:var(--paper)}
+.spec{flex:1 1 200px;padding:34px 3vw;border-right:1px solid var(--rule)}
+.spec:last-child{border-right:0}
+.spec .val{font-family:'Barlow Condensed';font-size:46px;font-weight:600;letter-spacing:.04em;color:var(--ink);line-height:1.1}
+.spec .val small{font-size:20px;color:var(--amber)}
+.spec .cap{font-size:12px;color:var(--grey);letter-spacing:.08em}
+section{padding:96px 5vw}
+.sec-head{display:flex;align-items:baseline;gap:22px;margin-bottom:14px}
+.sec-num{font-family:'Barlow Condensed';color:var(--amber);font-size:15px;letter-spacing:.2em}
+h2{font-size:clamp(24px,3.4vw,40px);font-weight:900;letter-spacing:.05em}
+h2 a{color:inherit}
+.sec-lead{max-width:680px;color:#4c534b;font-size:15px;margin-bottom:48px}
+.more{font-size:13px;font-weight:700;letter-spacing:.12em;color:var(--amber);border-bottom:1px solid var(--amber);padding-bottom:2px}
+.more:hover{color:var(--ink);border-color:var(--ink)}
+.svc-list{border-top:1px solid var(--rule)}
+.svc{display:grid;grid-template-columns:70px 1fr 1.4fr 90px;gap:3vw;align-items:baseline;padding:30px 0;border-bottom:1px solid var(--rule)}
+.svc .no{font-family:'Barlow Condensed';color:var(--dim);font-size:15px;letter-spacing:.15em}
+.svc h3{font-size:20px;font-weight:700;letter-spacing:.06em}
+.svc h3 a:hover{color:var(--amber)}
+.svc p{font-size:13.5px;color:#555c54;line-height:1.9}
+@media(max-width:860px){.svc{grid-template-columns:44px 1fr;gap:14px}.svc p{grid-column:2}.svc .more{grid-column:2}}
+.victoria{display:grid;grid-template-columns:1.25fr .75fr;gap:0;padding:0;border-block:1px solid var(--rule)}
+.victoria .ph{position:relative;min-height:520px}
+.victoria .ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.victoria .tx{padding:70px 4vw;background:var(--paper2)}
+.victoria .tx h2{margin-bottom:20px;font-size:clamp(22px,2.6vw,32px)}
+.victoria .tx p{font-size:14px;color:#4c534b;margin-bottom:18px}
+.victoria .fact{border-left:2px solid var(--amber);padding-left:16px;margin:26px 0 0;font-size:13px;color:var(--grey)}
+@media(max-width:860px){.victoria{grid-template-columns:1fr}.victoria .ph{min-height:300px}}
+.punch-grid{display:flex;flex-wrap:wrap;gap:5vw 4vw;align-items:flex-start}
+.punch{flex:0 1 260px}
+.punch .hole{width:150px;height:150px;clip-path:circle(50%);background:var(--plate);display:flex;align-items:center;justify-content:center;margin-bottom:18px}
+.punch .hole span{font-family:'Barlow Condensed';font-size:30px;font-weight:600;color:var(--amber);letter-spacing:.05em;text-align:center;line-height:1.2}
+.punch .hole small{display:block;font-family:'Zen Kaku Gothic New';font-size:11px;color:var(--grey);letter-spacing:.1em}
+.punch h3{font-size:16px;font-weight:700;margin-bottom:6px;letter-spacing:.05em}
+.punch p{font-size:12.5px;color:#555c54;line-height:1.85}
+.punch:nth-child(2){margin-top:44px}
+.punch:nth-child(3){margin-top:18px}
+.punch:nth-child(5){margin-top:34px}
+@media(max-width:860px){.punch:nth-child(n){margin-top:0}}
+.works{display:grid;grid-template-columns:1.5fr 1fr;grid-template-rows:auto auto;gap:1px;background:var(--rule);border:1px solid var(--rule)}
+.work{position:relative;background:var(--paper);min-height:340px;overflow:hidden;display:block}
+.work.big{grid-row:1/3;min-height:0}
+.work img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.work:hover img{transform:scale(1.025)}
+.work .cap{position:absolute;left:0;right:0;bottom:0;padding:22px 26px;background:linear-gradient(180deg,transparent,rgba(18,21,16,.82) 62%);color:#f2f1ea}
+.work .cap b{display:block;font-size:19px;font-weight:900;letter-spacing:.06em;margin-bottom:4px}
+.work .cap span{font-size:12.5px;color:#d9d8cf;line-height:1.7;display:block;max-width:520px}
+.work .tag{position:absolute;top:18px;left:0;background:var(--ink);color:#f2f1ea;font-size:11px;font-weight:700;letter-spacing:.16em;padding:4px 14px 4px 18px}
+@media(max-width:860px){.works{grid-template-columns:1fr}.work.big{grid-row:auto}}
+.zubo{border-block:1px solid var(--rule);background:var(--paper2)}
+.zubo-grid{display:grid;grid-template-columns:1fr 1fr;gap:5vw;align-items:center}
+.zubo-chips{display:flex;gap:10px;margin:34px 0 8px;flex-wrap:wrap}
+.zubo-chips i{width:26px;height:26px;clip-path:circle(50%);display:block}
+.zubo-note{font-size:11.5px;color:var(--grey)}
+.zubo-ph{position:relative;min-height:380px}
+.zubo-ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.zubo h2 .play{color:var(--amber)}
+.links{display:flex;gap:26px;margin-top:30px;flex-wrap:wrap}
+.links a{border:1px solid var(--ink);padding:12px 30px;font-size:13.5px;font-weight:700;letter-spacing:.1em;transition:.25s;display:inline-block}
+.links a:hover{background:var(--ink);color:#fff}
+.links a.amber{border-color:var(--amber);color:var(--amber)}
+.links a.amber:hover{background:var(--amber);color:#fff}
+@media(max-width:860px){.zubo-grid{grid-template-columns:1fr}.zubo-ph{min-height:260px}}
+.sdgs-list{border-top:1px solid var(--rule);max-width:860px}
+.sdgs-list li{list-style:none;display:grid;grid-template-columns:26px 1fr;gap:18px;padding:16px 0;border-bottom:1px solid var(--rule);font-size:14px;color:#3d443c}
+.sdgs-list li::before{content:"";width:12px;height:12px;clip-path:circle(50%);background:var(--plate);margin-top:12px}
+.rec{border-top:1px solid var(--rule)}
+.rec li{list-style:none;display:grid;grid-template-columns:120px 1fr;gap:3vw;padding:20px 0;border-bottom:1px solid var(--rule);font-size:14px}
+.rec time{font-family:'Barlow Condensed';color:var(--amber);font-size:16px;letter-spacing:.1em}
+.rec span{color:#3d443c}
+@media(max-width:860px){.rec li{grid-template-columns:74px 1fr}}
+.company{display:grid;grid-template-columns:1fr 1fr;gap:6vw}
+.company .greet p{font-size:14.5px;color:#3d443c;margin-bottom:16px}
+.company .who{margin-top:26px;font-size:13px;color:var(--grey);line-height:1.9}
+.company .who b{color:var(--ink);font-size:15px}
+.company table{width:100%;border-collapse:collapse;font-size:13.5px;background:var(--paper);border:1px solid var(--rule)}
+.company th{width:110px;text-align:left;font-weight:500;color:var(--grey);padding:13px 14px;border-bottom:1px solid var(--rule);border-right:1px solid var(--rule);vertical-align:top;letter-spacing:.1em}
+.company td{padding:13px 16px;border-bottom:1px solid var(--rule);color:#3d443c}
+@media(max-width:860px){.company{grid-template-columns:1fr}}
+.contact-band{border-top:1px solid var(--rule);background:var(--ink);color:#f2f1ea;display:grid;grid-template-columns:1fr 1fr;gap:5vw;align-items:end;padding:96px 5vw}
+.contact-band h2{color:#f2f1ea}
+.contact-band .sec-num{color:#e3b85f}
+.contact-band p{color:#c8c7bd}
+.contact-band .tel{font-family:'Barlow Condensed';font-size:58px;font-weight:600;letter-spacing:.04em;color:#fff;line-height:1.1;display:block;margin:8px 0 6px}
+.contact-band .mail{font-size:13px;color:#a9a89e}
+.contact-band .btn{display:inline-block;border:1px solid #e3b85f;color:#e3b85f;padding:16px 44px;font-size:14px;font-weight:700;letter-spacing:.14em;transition:.25s}
+.contact-band .btn:hover{background:#e3b85f;color:var(--ink)}
+@media(max-width:860px){.contact-band{grid-template-columns:1fr}}
+.paras p{max-width:720px;font-size:14.5px;color:#3d443c;margin-bottom:18px}
+.strength{background:var(--paper2);border-block:1px solid var(--rule)}
+.chips{display:flex;flex-wrap:wrap;gap:14px;margin:6px 0 26px}
+.chip{border:1px solid var(--ink);padding:10px 22px;font-size:13.5px;font-weight:700;letter-spacing:.06em;background:var(--paper)}
+.items{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule)}
+.item{background:var(--paper);padding:0 0 18px}
+.item .iph{position:relative;aspect-ratio:3/2;background:var(--plate)}
+.item .iph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.item b{display:block;font-size:15px;font-weight:700;letter-spacing:.05em;padding:16px 20px 2px}
+.item p{font-size:12.5px;color:#555c54;padding:0 20px;line-height:1.85}
+.note{font-size:12.5px;color:var(--grey);margin-top:22px}
+.cta-inline{margin-top:44px}
+.figure{border:1px solid var(--rule);padding:10px;background:var(--paper);max-width:760px;margin-bottom:10px}
+.figure figcaption{font-size:12px;color:var(--grey);padding-top:8px;letter-spacing:.12em;display:flex;justify-content:space-between}
+.fig2{display:grid;grid-template-columns:1fr 1fr;gap:18px;max-width:900px}
+@media(max-width:700px){.fig2{grid-template-columns:1fr}}
+.contact-page .telbig{font-family:'Barlow Condensed';font-size:64px;font-weight:600;color:var(--ink);letter-spacing:.05em;line-height:1.1;display:block;margin:10px 0}
+.form{max-width:640px;margin-top:20px}
+.form label{display:block;font-size:13px;font-weight:700;letter-spacing:.08em;margin:22px 0 6px}
+.form label small{color:var(--amber);margin-left:8px}
+.form input,.form textarea{width:100%;border:1px solid var(--ink);background:var(--paper);padding:13px 14px;font-size:14px;font-family:inherit}
+.form textarea{min-height:140px}
+.form .send{margin-top:28px;border:1px solid var(--amber);color:var(--amber);background:none;padding:15px 54px;font-size:14px;font-weight:700;letter-spacing:.2em;cursor:pointer;transition:.25s}
+.form .send:hover{background:var(--amber);color:#fff}
+footer{border-top:1px solid var(--rule);padding:44px 5vw 90px;font-size:12px;color:var(--grey);line-height:2.1}
+.fnav{display:flex;gap:5vw;flex-wrap:wrap;margin-bottom:26px}
+.fnav div b{display:block;color:var(--ink);font-size:12.5px;letter-spacing:.12em;margin-bottom:6px}
+.fnav a{display:block;color:var(--grey);font-size:12px}
+.fnav a:hover{color:var(--amber)}
+footer .legal b{color:var(--ink);letter-spacing:.1em}
+[data-reveal]{opacity:0;transform:translateY(22px);transition:opacity .8s,transform .8s}
+[data-reveal].is-in{opacity:1;transform:translateY(0)}
+.mocknote{position:fixed;right:0;bottom:0;background:var(--ink);color:#9aa196;font-size:10px;letter-spacing:.15em;padding:4px 12px;z-index:99}
+</style></head><body>
+<div class="rail" aria-hidden="true"></div>
+<div class="mocknote">リニューアルご提案モック ver.0</div>
+<main><header><div class="nav">
+  <div class="brand"><a href="index.html">精工パッキング<span class="en">SEIKO PACKING — VICTORIA PUNCHING TECHNOLOGY</span></a></div>
+  <ul><li><a href="index.html">ホーム</a></li><li><a href="shop.html">オンラインショップ</a></li><li><a href="sdgs.html">SDGsへの取り組み</a></li><li><a href="service.html" class="on">業務紹介</a></li><li><a href="cases.html">事例集</a></li><li><a href="company.html">会社概要</a></li><li><a href="contact.html">お問い合わせ</a></li></ul>
+</div></header><div class="phero">
+  <div class="phero-img"><img src="https://static.wixstatic.com/media/584f83_2c49262f4e3145f4a1af5f50eeae4fec~mv2_d_5472_3648_s_4_2.jpg/v1/fill/w_1920,h_760,al_c,q_85/x.jpg" alt=""></div>
+  <div class="phero-in"><div class="crumb"><a href="index.html">ホーム</a> ／ <a href="service.html">業務紹介</a></div>
+  <h1>ゴム打ち抜き加工</h1><div class="sub">天然ゴム・合成ゴム・シリコンゴムなど</div></div>
+</div>
+<div class="dimline" style="margin:0"><b>RUBBER PUNCHING</b></div><section><div class="sec-head"><span class="sec-num en">01</span><h2>ゴムパッキン</h2></div>
+   <div class="paras"><p>金型成型で作るよりビクトリア型製作の場合、型代コストが1/10程度に抑える事が出来る場合があります。</p><p>平板ゴムに両面テープを貼り、打ち抜き加工をします。四角形の場合、型代不要の場合もあります。</p></div>
+   
+  </section><section class="strength">
+  <div class="sec-head"><span class="sec-num en">02</span><h2>精工パッキングの強み</h2></div>
+  <div class="dimline"><b>OUR STRENGTH</b></div>
+  <p class="sec-lead" style="margin-bottom:26px">精工パッキングでは、問屋とも長年のお取引があり様々な材料のサンプルを取り寄せることが出来ます。</p>
+  <div class="chips"><span class="chip" data-reveal>ゴムと両面テープの相性からご提案</span><span class="chip" data-reveal>各種両面テープを取り揃えてます</span><span class="chip" data-reveal>様々な材料のサンプルを取り寄せ</span><span class="chip" data-reveal>シリコンゴム専用両面テープの取扱い</span></div>
+  <div class="paras"><p>ゴムと両面テープは基本的に接着するのは難しいのですが、精工パッキングでは、長年の経験により様々なご提案ができます。</p></div>
+  <div class="cta-inline"><a class="more" href="contact.html">お問い合せはこちら →</a></div>
+</section><div style="height:80px"></div><section style="padding-top:0">
+  <div class="sec-head"><span class="sec-num en">03</span><h2>ゴム打ち抜き加工の例</h2></div>
+  <div class="dimline"><b>EXAMPLES</b></div>
+  <div class="items"><div class="item" data-reveal><div class="iph"><img src="https://static.wixstatic.com/media/584f83_e5c253d18a774a75be03efb9b4957a76~mv2_d_2304_1728_s_2.jpg/v1/fill/w_760,h_510,al_c,q_85/x.jpg" alt="7tゴムイタ打抜き加工"></div><b>7tゴムイタ打抜き加工</b><p>薄い材質が得意ですが、時には7t程度のゴムイタを打抜き加工。</p></div><div class="item" data-reveal><div class="iph"><img src="https://static.wixstatic.com/media/584f83_4a9ae034ed2845219968a725079c3f0a~mv2.jpg/v1/fill/w_760,h_510,al_c,q_85/x.jpg" alt="形状"></div><b>形状</b><p>様々な形状に対応しています。（→ <a class="more" href="case-wagomu.html">かつしか極細輪ゴムの事例</a>）</p></div></div>
+  <p class="note">※ 上記一覧以外の素材に関しても、お気軽にお問い合せください。※ 形状によって加工可能な場合があります。</p>
+</section><section class="contact-band" style="padding-top:80px;padding-bottom:80px">
+  <div><div class="sec-head"><span class="sec-num en">04</span><h2>お問い合わせ</h2></div>
+  <p style="font-size:14px">幅広いご要望に対応します。お気軽にお問い合せください。</p>
+  <a class="tel en" href="tel:0336592125">03-3659-2125</a>
+  <p class="mail">shumay.h@seikopacking-tokyo.com</p></div>
+  <div style="padding-bottom:14px"><a class="btn" href="contact.html">お問い合わせフォームへ</a></div>
+</section><footer>
+  <div class="fnav">
+    <div><b>◇ 業務内容</b><a href="service.html">業務紹介</a><a href="uchinuki.html">打ち抜き加工</a><a href="dabletape.html">両面テープ加工</a><a href="resin.html">樹脂 打ち抜き</a><a href="rubber.html">ゴム 打ち抜き</a><a href="foam.html">スポンジ・発泡品</a><a href="other.html">その他打ち抜き</a></div>
+    <div><b>◇ 事例</b><a href="cases.html">事例集</a><a href="case-wagomu.html">かつしか極細輪ゴム</a><a href="case-edge.html">エッジ無しポリカーボネート</a><a href="case-tape.html">両面テープ貼り合わせ</a></div>
+    <div><b>◇ 会社概要</b><a href="company.html">会社概要</a><a href="sdgs.html">SDGsへの取り組み</a><a href="shop.html">オンラインショップ</a><a href="contact.html">お問い合せ</a></div>
+  </div>
+  <div class="legal"><b>有限会社精工パッキング</b>｜〒125-0054 東京都葛飾区高砂3-28-18｜TEL 03-3659-2125<br>© Seiko Packing Co., Ltd.　※リニューアルご提案用モック。写真は現行サイトの実写素材を参照しています（実装時に最適化・差し替え）。</div>
+</footer></main>
+<script>
+const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('is-in');io.unobserve(e.target)}})},{threshold:0,rootMargin:'0px 0px -8% 0px'});
+document.querySelectorAll('[data-reveal]').forEach(el=>io.observe(el));
+</script></body></html>
