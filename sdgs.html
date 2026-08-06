@@ -166,6 +166,19 @@ footer{border-top:1px solid var(--rule);padding:44px 5vw 90px;font-size:12px;col
 .fnav a{display:block;color:var(--grey);font-size:12px}
 .fnav a:hover{color:var(--amber)}
 footer .legal b{color:var(--ink);letter-spacing:.1em}
+.decl{display:grid;grid-template-columns:.72fr 1.28fr;gap:4vw;align-items:center;border-bottom:1px solid var(--rule);background:var(--paper2);padding:70px 5vw}
+.decl figure{border:1px solid var(--rule);background:var(--paper);padding:12px}
+.decl figure img{width:100%;height:auto}
+.decl figcaption{font-size:11.5px;color:var(--grey);letter-spacing:.1em;padding-top:10px}
+.decl h2{font-size:clamp(21px,2.6vw,30px);margin-bottom:16px}
+.decl p{font-size:14px;color:#4c534b}
+.decl .reg{font-size:13px;color:var(--grey);border-left:2px solid var(--amber);padding-left:14px;margin:20px 0 26px;line-height:2}
+.decl .goals-all{width:100%;max-width:600px;height:auto;border:1px solid var(--rule);background:#fff;padding:12px}
+@media(max-width:860px){.decl{grid-template-columns:1fr;gap:30px;padding:54px 5vw}}
+.sdgs-list li{grid-template-columns:26px 1fr auto}
+.goals{display:flex;gap:5px;flex-wrap:wrap;justify-content:flex-end;max-width:196px}
+.goals img{width:58px;height:58px;display:block}
+@media(max-width:860px){.sdgs-list li{grid-template-columns:26px 1fr}.goals{grid-column:2;justify-content:flex-start;max-width:none;margin-top:10px}}
 [data-reveal]{opacity:0;transform:translateY(22px);transition:opacity .8s,transform .8s}
 [data-reveal].is-in{opacity:1;transform:translateY(0)}
 .mocknote{position:fixed;right:0;bottom:0;background:var(--ink);color:#9aa196;font-size:10px;letter-spacing:.15em;padding:4px 12px;z-index:99}
@@ -181,6 +194,18 @@ footer .legal b{color:var(--ink);letter-spacing:.1em}
   <h1>SDGsへの取り組み</h1><div class="sub">精工パッキングは葛飾区SDGs宣言をしています</div></div>
 </div>
 <div class="dimline" style="margin:0"><b>KATSUSHIKA SDGs</b></div>
+<div class="decl">
+  <figure data-reveal>
+    <img src="https://static.wixstatic.com/media/a7a116_9c4209f3b17e474f8cb78698a9981fd1~mv2.jpg/v1/fit/w_720,h_960,q_90/x.jpg" alt="葛飾区SDGs宣言証">
+    <figcaption>葛飾区SDGs宣言証</figcaption>
+  </figure>
+  <div data-reveal>
+    <h2>葛飾区SDGs宣言をしています</h2>
+    <p>持続可能な開発目標（SDGs）の達成に向けて、葛飾区へSDGs宣言を行い、宣言事業者として登録されています。</p>
+    <div class="reg">登録事業者　有限会社精工パッキング<br>登録番号　第40号　／　令和4年9月28日</div>
+    <img class="goals-all" src="https://static.wixstatic.com/media/a7a116_3a72d9d0dcef4388a3d0b0e9dc840790~mv2.jpg/v1/fill/w_1200,h_640,al_c,q_88/x.jpg" alt="持続可能な開発目標 17のゴール">
+  </div>
+</div>
 <section>
   <div class="sec-head"><span class="sec-num en">01</span><h2>事業者としての中長期的な在るべき姿</h2></div>
   <div class="paras">
@@ -196,22 +221,22 @@ footer .legal b{color:var(--ink);letter-spacing:.1em}
   <div class="sec-head"><span class="sec-num en">02</span><h2>目標に関連する取組み</h2></div>
   <div class="dimline"><b>ACTIONS</b></div>
   <ul class="sdgs-list">
-    <li data-reveal>光触媒による抗菌コートを工場内、事務所内、トイレ、玄関ドアノブ、階段手摺など隅々まで抗菌コート済。残業業務を基本的に禁止とし、翌日に疲労を残さない取組みを実施。</li>
-    <li data-reveal>ITコンサルティング会社と業務提携を結び情報セキュリティ強化、ペーパーレス化に取り組んでいます。電力抑制ブレーカーを導入して無駄な電力消費を抑えています。</li>
-    <li data-reveal>廃材などをリユースし、小中学校でワークショップ形式で再利用。廃材を服飾専門学校へ送り、創造力を活かした作品作りに貢献。予約制で工場見学を受け付けています。</li>
-    <li data-reveal>風水害に特化したBCPワークショップを開催し、防災意識を向上。東京商工会議所葛飾支部災害対策検討委員会の委員長として区や経営者を巻き込んで災害対策に取り組んでいます。</li>
-    <li data-reveal>ふるさと納税返礼品に寄与。地元のサッカークラブチーム（南葛SC）とパートナーシップ協定を締結し、地元との交流を深める活動を実施。月に一度、葛飾会議に参加し地元の連携を深めています。</li>
-    <li data-reveal>医療における新しい手法の道具の開発に携わっています。個人の発明品のクラウドファンディング掲載をOEMを通してサポート。葛飾区産業フェアに毎年出展し、区内事業の発展に貢献しています。</li>
+    <li data-reveal><span>光触媒による抗菌コートを工場内、事務所内、トイレ、玄関ドアノブ、階段手摺など隅々まで抗菌コート済。残業業務を基本的に禁止とし、翌日に疲労を残さない取組みを実施。</span><span class="goals"><img src="https://static.wixstatic.com/media/a7a116_d8f29aed3a584c849a0cbefc053a21e3~mv2.png/v1/fill/w_120,h_120,al_c,q_85/x.png" alt="目標3 すべての人に健康と福祉を"><img src="https://static.wixstatic.com/media/a7a116_7a09d26f1bfa4640875f3dfb475bd2d1~mv2.png/v1/fill/w_120,h_120,al_c,q_85/x.png" alt="目標8 働きがいも経済成長も"></span></li>
+    <li data-reveal><span>ITコンサルティング会社と業務提携を結び情報セキュリティ強化、ペーパーレス化に取り組んでいます。電力抑制ブレーカーを導入して無駄な電力消費を抑えています。</span><span class="goals"><img src="https://static.wixstatic.com/media/a7a116_5215b7113bcb48189bfac39351a00c67~mv2.png/v1/fill/w_120,h_120,al_c,q_85/x.png" alt="目標7 エネルギーをみんなにそしてクリーンに"><img src="https://static.wixstatic.com/media/a7a116_15da62230c33471d8bb75b0366da8840~mv2.png/v1/fill/w_120,h_120,al_c,q_85/x.png" alt="目標13 気候変動に具体的な対策を"><img src="https://static.wixstatic.com/media/a7a116_b01c952a0bbb4850b3e7b5307f4e1db8~mv2.png/v1/fill/w_120,h_120,al_c,q_85/x.png" alt="目標16 平和と公正をすべての人に"></span></li>
+    <li data-reveal><span>廃材などをリユースし、小中学校でワークショップ形式で再利用。廃材を服飾専門学校へ送り、創造力を活かした作品作りに貢献。予約制で工場見学を受け付けています。</span><span class="goals"><img src="https://static.wixstatic.com/media/a7a116_ad670015f11344b58328321950e8a0a2~mv2.png/v1/fill/w_120,h_120,al_c,q_85/x.png" alt="目標4 質の高い教育をみんなに"><img src="https://static.wixstatic.com/media/a7a116_95ab62ff775e4e0192263c9917217453~mv2.png/v1/fill/w_120,h_120,al_c,q_85/x.png" alt="目標11 住み続けられるまちづくりを"><img src="https://static.wixstatic.com/media/a7a116_7a54009dc9974cd991479b6af63b3ab2~mv2.png/v1/fill/w_120,h_120,al_c,q_85/x.png" alt="目標12 つくる責任つかう責任"></span></li>
+    <li data-reveal><span>風水害に特化したBCPワークショップを開催し、防災意識を向上。東京商工会議所葛飾支部災害対策検討委員会の委員長として区や経営者を巻き込んで災害対策に取り組んでいます。</span><span class="goals"><img src="https://static.wixstatic.com/media/a7a116_95ab62ff775e4e0192263c9917217453~mv2.png/v1/fill/w_120,h_120,al_c,q_85/x.png" alt="目標11 住み続けられるまちづくりを"><img src="https://static.wixstatic.com/media/a7a116_b01c952a0bbb4850b3e7b5307f4e1db8~mv2.png/v1/fill/w_120,h_120,al_c,q_85/x.png" alt="目標16 平和と公正をすべての人に"><img src="https://static.wixstatic.com/media/a7a116_18fa9962b7594e5fbe43632b6d2d1336~mv2.png/v1/fill/w_120,h_120,al_c,q_85/x.png" alt="目標17 パートナーシップで目標を達成しよう"></span></li>
+    <li data-reveal><span>ふるさと納税返礼品に寄与。地元のサッカークラブチーム（南葛SC）とパートナーシップ協定を締結し、地元との交流を深める活動を実施。月に一度、葛飾会議に参加し地元の連携を深めています。</span><span class="goals"><img src="https://static.wixstatic.com/media/a7a116_95ab62ff775e4e0192263c9917217453~mv2.png/v1/fill/w_120,h_120,al_c,q_85/x.png" alt="目標11 住み続けられるまちづくりを"><img src="https://static.wixstatic.com/media/a7a116_18fa9962b7594e5fbe43632b6d2d1336~mv2.png/v1/fill/w_120,h_120,al_c,q_85/x.png" alt="目標17 パートナーシップで目標を達成しよう"></span></li>
+    <li data-reveal><span>医療における新しい手法の道具の開発に携わっています。個人の発明品のクラウドファンディング掲載をOEMを通してサポート。葛飾区産業フェアに毎年出展し、区内事業の発展に貢献しています。</span><span class="goals"><img src="https://static.wixstatic.com/media/a7a116_d8f29aed3a584c849a0cbefc053a21e3~mv2.png/v1/fill/w_120,h_120,al_c,q_85/x.png" alt="目標3 すべての人に健康と福祉を"><img src="https://static.wixstatic.com/media/a7a116_7a09d26f1bfa4640875f3dfb475bd2d1~mv2.png/v1/fill/w_120,h_120,al_c,q_85/x.png" alt="目標8 働きがいも経済成長も"><img src="https://static.wixstatic.com/media/a7a116_c55762d770c94991b78e59e666e3ba35~mv2.png/v1/fill/w_120,h_120,al_c,q_85/x.png" alt="目標9 産業と技術革新の基盤をつくろう"></span></li>
   </ul>
 </section>
 <section style="padding-top:80px">
   <div class="sec-head"><span class="sec-num en">03</span><h2>活動の記録</h2></div>
   <div class="dimline"><b>ACTIVITIES</b></div>
   <div class="items">
-    <div class="item" data-reveal><b>葛飾区産業フェアに毎年出展</b><p>地元産業をアピールしています。</p></div>
-    <div class="item" data-reveal><b>避難所運営ゲーム（HUG）</b><p>災害対策の1つとして取り組んでいます。</p></div>
-    <div class="item" data-reveal><b>青戸中学校の職場体験授業</b><p>生徒の皆さんからお礼の寄せ書きを頂きました。</p></div>
-    <div class="item" data-reveal><b>南葛SCの選手の工場見学</b><p>月に1度の葛飾会議にも参加しています。</p></div>
+    <div class="item" data-reveal><div class="iph"><img src="https://static.wixstatic.com/media/a7a116_cecdaddaa3144b78958fb08ebd03f365~mv2.jpg/v1/fill/w_800,h_534,al_c,q_85/x.jpg" alt="葛飾区産業フェアの会場"></div><b>葛飾区産業フェアに毎年出展</b><p>地元産業をアピールしています。</p></div>
+    <div class="item" data-reveal><div class="iph"><img src="https://static.wixstatic.com/media/a7a116_4f724b89f3db4e2a955d0581e6709b09~mv2.jpg/v1/fill/w_800,h_534,al_c,q_85/x.jpg" alt="避難所運営ゲーム（HUG）"></div><b>避難所運営ゲーム（HUG）</b><p>災害対策の1つとして取り組んでいます。</p></div>
+    <div class="item" data-reveal><div class="iph"><img src="https://static.wixstatic.com/media/a7a116_e48927962bd7455b8b08a992123c9133~mv2.jpg/v1/fill/w_800,h_534,al_c,q_85/x.jpg" alt="青戸中学校2学年一同からの寄せ書き"></div><b>青戸中学校の職場体験授業</b><p>生徒の皆さんからお礼の寄せ書きを頂きました。</p></div>
+    <div class="item" data-reveal><div class="iph"><img src="https://static.wixstatic.com/media/a7a116_f97b933ae1624a648be0025571b37d58~mv2.jpg/v1/fill/w_800,h_534,al_c,q_85/x.jpg" alt="南葛SCの選手と平井社長"></div><b>南葛SCの選手の工場見学</b><p>月に1度の葛飾会議にも参加しています。</p></div>
   </div>
 </section>
 <section class="contact-band" style="padding-top:80px;padding-bottom:80px">
