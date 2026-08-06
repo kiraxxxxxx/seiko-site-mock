@@ -38,6 +38,13 @@ header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);border-
 .hero-sub{max-width:640px;color:#d9d8cf;font-size:15px}
 .hero-en{position:absolute;top:14vh;right:4vw;z-index:2;writing-mode:vertical-rl;font-family:'Barlow Condensed';font-size:13px;letter-spacing:.5em;color:#e6e4da;opacity:.9}
 @media(max-width:860px){.hero-en{display:none}}
+.hero-strip{position:relative;z-index:2;display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:rgba(242,241,234,.22);border-top:1px solid rgba(242,241,234,.35)}
+.hs{position:relative;display:block;aspect-ratio:16/9;overflow:hidden;background:#121510}
+.hs img{width:100%;height:100%;object-fit:cover;filter:brightness(.9);transition:transform .5s,filter .3s}
+.hs:hover img{transform:scale(1.04);filter:brightness(1.02)}
+.hs span{position:absolute;left:0;bottom:0;right:0;padding:7px 10px 6px;font-size:11.5px;font-weight:700;letter-spacing:.1em;color:#f2f1ea;background:linear-gradient(180deg,transparent,rgba(18,21,16,.85))}
+.hs span i{font-family:'Barlow Condensed';font-style:normal;color:#e3b85f;font-size:11px;letter-spacing:.18em;margin-right:8px}
+@media(max-width:860px){.hero-strip{grid-template-columns:repeat(3,1fr)}.hs:nth-child(n+4){display:none}}
 .phero{position:relative;min-height:44vh;display:flex;align-items:flex-end;overflow:hidden}
 .phero-img{position:absolute;inset:0}
 .phero-img img{width:100%;height:100%;object-fit:cover;filter:brightness(.62)}
@@ -183,6 +190,13 @@ footer .legal b{color:var(--ink);letter-spacing:.1em}
     <div class="hero-kicker">ビクトリア型平板打ち抜き加工専門 ｜ 葛飾区高砂に創業1961年</div>
     <h1>出来ないを、<br>出来るに変える<span class="thin">モノづくり。</span></h1>
     <p class="hero-sub">ゴム・プラスチック・ウレタン・スポンジ・紙類・両面テープ——金属以外のあらゆる素材の、小さくて薄くて精密な打ち抜き加工。小さな部品、細かいパーツが得意専門分野の町工場です。</p>
+  </div>
+  <div class="hero-strip">
+    <a class="hs" href="rubber.html"><img src="https://static.wixstatic.com/media/584f83_e5c253d18a774a75be03efb9b4957a76~mv2_d_2304_1728_s_2.jpg/v1/fill/w_600,h_400,al_c,q_85/x.jpg" alt="ゴム打ち抜き加工"><span><i>01</i>ゴム</span></a>
+    <a class="hs" href="resin.html"><img src="https://static.wixstatic.com/media/584f83_f15a5ee1b94b40bf930e0511f44f8bfc~mv2.jpg/v1/fill/w_600,h_400,al_c,q_85/x.jpg" alt="樹脂打ち抜き加工"><span><i>02</i>樹脂（PET・PC 等）</span></a>
+    <a class="hs" href="foam.html"><img src="https://static.wixstatic.com/media/a7a116_565b01b92b6e4446ba03eff1f21d489c~mv2_d_5472_3648_s_4_2.jpg/v1/fill/w_600,h_400,al_c,q_85/x.jpg" alt="スポンジ・発泡品加工"><span><i>03</i>スポンジ・発泡</span></a>
+    <a class="hs" href="dabletape.html"><img src="https://static.wixstatic.com/media/584f83_8f66f41103074065ae5d3e9f0bcd8ef7~mv2_d_3000_1901_s_2.jpg/v1/fill/w_600,h_400,al_c,q_85/x.jpg" alt="両面テープ加工"><span><i>04</i>両面テープ</span></a>
+    <a class="hs" href="case-wagomu.html"><img src="https://static.wixstatic.com/media/584f83_e9714ea911e9436cb830eaef54498528~mv2_d_1500_1848_s_2.jpg/v1/fill/w_600,h_400,al_c,q_85/x.jpg" alt="かつしか極細輪ゴム"><span><i>05</i>極細輪ゴム 0.2mm</span></a>
   </div>
 </div>
 <div class="specs">
